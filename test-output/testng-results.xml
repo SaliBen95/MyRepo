@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-16T05:31:53Z" name="TurorialsNinja Automation Suite" finished-at="2023-04-16T05:36:16Z" duration-ms="262511">
+    <groups>
+    </groups>
+    <test started-at="2023-04-16T05:31:53Z" name="Test1" finished-at="2023-04-16T05:33:38Z" duration-ms="104953">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:31:54Z" name="setup" finished-at="2023-04-16T05:32:04Z" duration-ms="10002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:04Z" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2023-04-16T05:32:06Z" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[salima@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M2lpsw@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:06Z" name="ClosePage" finished-at="2023-04-16T05:32:07Z" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:07Z" name="setup" finished-at="2023-04-16T05:32:19Z" duration-ms="11652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:19Z" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2023-04-16T05:32:21Z" duration-ms="2130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sali@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M2lpsw@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:21Z" name="ClosePage" finished-at="2023-04-16T05:32:22Z" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:22Z" name="setup" finished-at="2023-04-16T05:32:38Z" duration-ms="15981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String, java.lang.String)[pri:1, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:38Z" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2023-04-16T05:32:39Z" duration-ms="1653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[salima234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M2lpsw@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:39Z" name="ClosePage" finished-at="2023-04-16T05:32:40Z" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:40Z" name="setup" finished-at="2023-04-16T05:32:51Z" duration-ms="10685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:51Z" name="verifyLoginWithInvalidCredentials" finished-at="2023-04-16T05:32:52Z" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:52Z" name="ClosePage" finished-at="2023-04-16T05:32:52Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:32:52Z" name="setup" finished-at="2023-04-16T05:33:00Z" duration-ms="8363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailidInvalidPassword()[pri:3, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:00Z" name="verifyLoginWithValidEmailidInvalidPassword" finished-at="2023-04-16T05:33:02Z" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailidInvalidPassword -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:02Z" name="ClosePage" finished-at="2023-04-16T05:33:03Z" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:03Z" name="setup" finished-at="2023-04-16T05:33:17Z" duration-ms="14462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailidValidPassword()[pri:4, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:17Z" name="verifyLoginWithInvalidEmailidValidPassword" finished-at="2023-04-16T05:33:19Z" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailidValidPassword -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:19Z" name="ClosePage" finished-at="2023-04-16T05:33:20Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:20Z" name="setup" finished-at="2023-04-16T05:33:28Z" duration-ms="8584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:28Z" name="verifyLoginWithoutProvidingCredentials" finished-at="2023-04-16T05:33:29Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:29Z" name="ClosePage" finished-at="2023-04-16T05:33:29Z" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:29Z" name="setup" finished-at="2023-04-16T05:33:37Z" duration-ms="7442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgottenPasswordLink()[pri:6, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:37Z" name="verifyForgottenPasswordLink" finished-at="2023-04-16T05:33:38Z" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgottenPasswordLink -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.LoginTest@13330ac6]" started-at="2023-04-16T05:33:38Z" name="ClosePage" finished-at="2023-04-16T05:33:38Z" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-04-16T05:33:39Z" name="Test2" finished-at="2023-04-16T05:35:38Z" duration-ms="118997">
+      <class name="TestCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:33:39Z" name="setup" finished-at="2023-04-16T05:33:47Z" duration-ms="8059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithValidField()[pri:1, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:33:47Z" name="verifyRegisterWithValidField" finished-at="2023-04-16T05:33:52Z" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithValidField -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:33:52Z" name="ClosePage" finished-at="2023-04-16T05:33:52Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:33:52Z" name="setup" finished-at="2023-04-16T05:34:01Z" duration-ms="8374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:2, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:01Z" name="verifyRegisterWithExistingEmail" finished-at="2023-04-16T05:34:04Z" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:04Z" name="ClosePage" finished-at="2023-04-16T05:34:05Z" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:05Z" name="setup" finished-at="2023-04-16T05:34:23Z" duration-ms="18450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithoutProvidingAnyInformation()[pri:3, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:23Z" name="verifyRegisterWithoutProvidingAnyInformation" finished-at="2023-04-16T05:34:24Z" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithoutProvidingAnyInformation -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:24Z" name="ClosePage" finished-at="2023-04-16T05:34:26Z" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:26Z" name="setup" finished-at="2023-04-16T05:34:40Z" duration-ms="14368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterWithoutAgreePrivacyPolicy()[pri:4, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:40Z" name="verifyRegisterWithoutAgreePrivacyPolicy" finished-at="2023-04-16T05:34:42Z" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithoutAgreePrivacyPolicy -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:42Z" name="ClosePage" finished-at="2023-04-16T05:34:42Z" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:42Z" name="setup" finished-at="2023-04-16T05:34:50Z" duration-ms="7342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidPasswordConfirm()[pri:5, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:50Z" name="verifyInvalidPasswordConfirm" finished-at="2023-04-16T05:34:51Z" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPasswordConfirm -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:51Z" name="ClosePage" finished-at="2023-04-16T05:34:52Z" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:34:52Z" name="setup" finished-at="2023-04-16T05:35:00Z" duration-ms="8097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidPassword()[pri:6, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:35:00Z" name="verifyInvalidPassword" finished-at="2023-04-16T05:35:04Z" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:35:04Z" name="ClosePage" finished-at="2023-04-16T05:35:05Z" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:35:05Z" name="setup" finished-at="2023-04-16T05:35:36Z" duration-ms="30838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidTelephone()[pri:7, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:35:36Z" name="verifyInvalidTelephone" finished-at="2023-04-16T05:35:37Z" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidTelephone -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.RegisterTest@6bca7e0d]" started-at="2023-04-16T05:35:37Z" name="ClosePage" finished-at="2023-04-16T05:35:38Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+      </class> <!-- TestCases.RegisterTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-04-16T05:35:38Z" name="Test3" finished-at="2023-04-16T05:36:16Z" duration-ms="37825">
+      <class name="TestCases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:35:38Z" name="setup" finished-at="2023-04-16T05:35:44Z" duration-ms="6058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchwithValidProduct()[pri:1, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:35:44Z" name="verifySearchwithValidProduct" finished-at="2023-04-16T05:35:44Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchwithValidProduct -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:35:44Z" name="ClosePage" finished-at="2023-04-16T05:35:45Z" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:35:45Z" name="setup" finished-at="2023-04-16T05:35:59Z" duration-ms="14571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchwithInvalidproduct()[pri:2, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:35:59Z" name="verifySearchwithInvalidproduct" finished-at="2023-04-16T05:36:01Z" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchwithInvalidproduct -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:36:01Z" name="ClosePage" finished-at="2023-04-16T05:36:03Z" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:36:03Z" name="setup" finished-at="2023-04-16T05:36:13Z" duration-ms="9975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithoutEnteringAnyProduct()[pri:3, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:36:13Z" name="verifySearchWithoutEnteringAnyProduct" finished-at="2023-04-16T05:36:15Z" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutEnteringAnyProduct -->
+        <test-method is-config="true" signature="ClosePage()[pri:0, instance:TestCases.SearchTest@4f9a2c08]" started-at="2023-04-16T05:36:15Z" name="ClosePage" finished-at="2023-04-16T05:36:16Z" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePage -->
+      </class> <!-- TestCases.SearchTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- TurorialsNinja Automation Suite -->
+</testng-results>

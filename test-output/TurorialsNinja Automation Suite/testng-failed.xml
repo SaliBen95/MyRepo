@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TurorialsNinja Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listeners.ClassListener"/>
+  </listeners>
+  <test thread-count="5" name="TurorialsNinja TestCases(failed)">
+    <classes>
+      <class name="TestCases.RegisterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyRegisterWithValidField"/>
+          <include name="ClosePage"/>
+        </methods>
+      </class> <!-- TestCases.RegisterTest -->
+    </classes>
+  </test> <!-- TurorialsNinja TestCases(failed) -->
+</suite> <!-- Failed suite [TurorialsNinja Automation Suite] -->
